@@ -1,5 +1,3 @@
-##from mujoco import mjx
-
 import gymnasium as gym
 from stable_baselines3 import PPO
 
@@ -21,5 +19,3 @@ for i in range(1000):
 
 env.close()
 
-
-# hi
