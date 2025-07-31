@@ -24,4 +24,4 @@ def test_mjx_compatibility(xml_path):
         return False, str(e)
 
 # Test original MetaWorld Sawyer
-compatible, message = test_mjx_compatibility("Metaworld/metaworld/assets/cleaned/mjx_sawyer_reach_CLEANTEST.xml")
+compatible, message = test_mjx_compatibility("Metaworld/metaworld/assets/sawyer_xyz/sawyer_push_CLEANED.xml")
