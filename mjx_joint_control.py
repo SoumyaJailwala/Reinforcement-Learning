@@ -83,9 +83,6 @@ def main():
             viewer.sync()
         viewer.close()
     except Exception as e:
-        print("\n🚨 Mujoco viewer failed to launch!")
-        print("This is common on macOS with M1/M2 chips due to OpenGL issues.")
-        print("Try running on a different machine, using viewer.launch_passive (no keyboard), or dm_control.")
         print(f"\nError: {e}")
         sys.exit(1)
 
